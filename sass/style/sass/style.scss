@@ -1,0 +1,13 @@
+
+
+@import 'menu';
+//On defini notre fonction ici
+
+@function calculHauteur($largeur){
+  @return $largeur * 2;
+}
+
+section{
+  width:auto;
+  height: calculHauteur(100px);
+}

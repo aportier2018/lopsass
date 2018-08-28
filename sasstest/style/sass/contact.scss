@@ -1,0 +1,15 @@
+@import 'menu';
+
+%bouton{
+  width:100px;
+  background-color: red;
+  color:blue;
+  }
+
+  fieldset{
+    @extend %bouton;
+  }
+
+  #bouton{
+    @extend %bouton;
+  }

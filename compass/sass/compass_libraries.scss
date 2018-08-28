@@ -1,0 +1,10 @@
+@import 'compass';
+@import "compass/typography/vertical_rhythm";
+//On importe le module sprite
+@import "compass/utilities/sprites";
+
+//On indique toutes les images à spriter
+
+@import "images/icons/*.jpg";
+
+@include all-icons-sprites;

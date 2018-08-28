@@ -1,0 +1,31 @@
+
+header{
+
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+
+    ul{
+      display:flex;
+      justify-content: space-around;
+    }
+
+    li{
+    width: 50px;
+      height: calculHauteur(10px); //On fait appel a notre fonction ici
+      border: 1px solid red;
+        }
+
+    a{
+      list-style: none;
+      text-decoration: none;
+      color:red;
+      &:hover{color:green;}
+    }
+}

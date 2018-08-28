@@ -1,0 +1,10 @@
+@import 'menu';
+
+@mixin bordure{
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+img{
+  @include bordure;
+}
